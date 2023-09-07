@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH
+IFS=: read -r -a dirs <<< "$PATH"
