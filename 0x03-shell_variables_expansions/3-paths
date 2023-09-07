@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=: read -r -a dirs <<< "$PATH"
+${#path_array[@]}
